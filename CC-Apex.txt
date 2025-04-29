@@ -1,0 +1,32 @@
+public class Main {
+ public static void findOdd(){
+
+        Integer num = 7;
+
+        if(Math.mod(num, 2) == 0){
+            System.debug('Even');
+        }
+        else{
+            System.debug('Odd');
+        }
+     
+
+ }
+}
+
+Additional codes:
+integer[] a = new integer[10];
+for(integer i=0; i<10; i++)
+ a[i] = i * 10; 
+ 
+for(integer i=0; i<10; i++)
+ System.debug(a[i]);
+
+ integer [] a = new integer[] {100, -20, 30};
+    for(integer i=0; i<a.size()-1; i++){          
+      if( a[i] > a[i+1]){
+        integer temp = a[i];
+        a[i] = a[i+1];
+        a[i+1] = temp;
+    }
+    }
